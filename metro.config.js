@@ -42,8 +42,8 @@ const config = {
     extraNodeModules: {
       // We need `expect` package for RN integration tests… but the damn thing expects to be in jest
       // (Node) environment… so we have to mock a bunch of stuff for this to work
-      fs: path.resolve(__dirname, 'src/__tests__/emptyMock'),
-      'graceful-fs': path.resolve(__dirname, 'src/__tests__/emptyMock'),
+      fs: path.resolve(__dirname, 'empty-module.js'),
+      //'graceful-fs': path.resolve(__dirname, 'src/__tests__/emptyMock'),
       module: path.resolve(__dirname, 'src/__tests__/emptyMock'),
       assert: path.resolve(__dirname, 'src/__tests__/emptyMock'),
       stream: path.resolve(__dirname, 'src/__tests__/emptyMock'),
