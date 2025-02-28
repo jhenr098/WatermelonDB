@@ -2173,8 +2173,8 @@ better-sqlite3@^11.0.0:
 
 "big-list-of-naughty-strings@https://github.com/radex/big-list-of-naughty-strings#8346238a82f1e3a6f62389def1e668d80e4023fb":
   version "1.0.0"
-  resolved "git+ssh://git@github.com/radex/big-list-of-naughty-strings.git#8346238a82f1e3a6f62389def1e668d80e4023fb"
-  integrity sha512-lxZOhNIXtRnFFR5ifjKUc32QeqA8PVKK2P7C2nnoIhXz39hWHmw34rv+yjgw6WQAbVVZusT/FyIkyOmo1h3wAg==
+  resolved "git+ssh://git@github.com/radex/big-list-of-naughty-strings.git"
+  integrity sha512-QvMUeqi8rTIOppmqkAOUpG4lGDEPEPEDzBZD4G8HPvd/kLd0jox/A9hjl/FYGV/GeNAupWduySO/IYSO53e+KQ==
 
 binary-extensions@^2.0.0:
   version "2.3.0"
@@ -2333,7 +2333,8 @@ caniuse-lite@^1.0.30001688:
 
 "cavy@git+https://github.com/Nozbe/cavy.git":
   version "0.5.0"
-  resolved "git+ssh://git@github.com/Nozbe/cavy.git#b4ed2e0142fe371e1be3153de101e37a52974130"
+  resolved "git+ssh://git@github.com/Nozbe/cavy.git"
+  integrity sha512-2ffvM5CsN6WmEvodyGqSdejYIBGuBnqN2P9eKEdE8OWWS9epvUSebFGnPlXbiaNXiZIeRrY6txCswwP9Oarwjg==
   dependencies:
     create-react-class "^15.6.0"
     hoist-non-react-statics "^2.5.0"

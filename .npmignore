@@ -1,0 +1,23 @@
+# Ignore test files
+__tests__/
+coverage/
+*.spec.js
+*.test.js
+
+# Ignore development dependencies
+node_modules/
+*.log
+.yarn.lock
+package-lock.json
+
+# Ignore unnecessary configs
+.github/
+.vscode/
+*.md
+
+# Ignore build artifacts (unless necessary)
+dist/
+lib/
+
+# Keep the lib directory if your package relies on it
+# If your package needs lib/, remove "lib/" from this list
