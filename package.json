@@ -7,7 +7,7 @@
   },
   "scripts": {
     "up": "yarn",
-    "build": "babel src --out-dir lib",
+    "build": "npx babel src --out-dir lib",
     "dev": "NODE_ENV=development node ./scripts/make.mjs",
     "dev:native": "react-native start",
     "release": "node ./scripts/release.mjs",
@@ -131,6 +131,7 @@
     "chokidar": "^3.6.0",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-flowtype": "^8.0.3",
